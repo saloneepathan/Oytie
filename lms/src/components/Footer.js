@@ -1,19 +1,16 @@
 import Card from 'react-bootstrap/Card';
 import CardGroup from 'react-bootstrap/CardGroup';
 import Figure from 'react-bootstrap/Figure';
+import Maps from './Maps';
 import './style.css'
 function Footer(props) {
   return (<>
   <div className="Footer card-mw-20 ">
-  {/* <Card className=''>
-        <Card.Body>
-          <Card.Text>
-            This is a wider card with supporting text below as a natural lead-in
-            to additional content. This card has even longer content than the
-            first to show that equal height action.
-          </Card.Text>
+   <Card >
+        <Card.Body className='mapFooter'>
+          <Maps/>
         </Card.Body>
-  </Card> */}
+  </Card> 
   <CardGroup >
     <Card style={{border:"none"}} >
         <Card.Body className='d-flex align-items-center flex-column contactFooter'>

@@ -52,8 +52,8 @@
 }
 
 .mapFooter{
-  background-color: #0a1e7d;
-  color:black;
+  height: auto;
+  max-width: 100%;
 }
 
 .handlesFooter{
