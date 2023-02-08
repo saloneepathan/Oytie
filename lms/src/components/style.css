@@ -31,6 +31,16 @@
     transform-origin: bottom left;
   }
 
+  .zoom {
+
+    overflow: hidden;
+    transition: transform 0.25s;
+  }
+
+  .zoom:hover {
+    transform: scale(1.2);
+  }
+
   .Footer{
     background-color: #0a1e7d;
     position: fixed ;
@@ -49,6 +59,10 @@
 .handlesFooter{
   background-color: #0a1e7d;
   
+}
+.contactFooter{
+  background-color: #0a1e7d;
+
 }
 
 .Container{

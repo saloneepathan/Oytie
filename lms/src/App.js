@@ -13,6 +13,9 @@ const emailLogo=new URL("./images/email.png",import.meta.url);
 const callLogo=new URL("./images/call.png",import.meta.url);
 
 function App() {
+  React.useEffect(()=>{
+    
+  })
   return (
     <>
       <Header home="Home" navLink1="LMS Portal" navLink2="Job Portal" contactUs="Contact Us" logo={oytieLogo}/>

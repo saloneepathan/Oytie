@@ -1,7 +1,7 @@
 import Card from 'react-bootstrap/Card';
 import CardGroup from 'react-bootstrap/CardGroup';
 import Figure from 'react-bootstrap/Figure';
-import './Header.css'
+import './style.css'
 function Footer(props) {
   return (<>
   <div className="Footer card-mw-20 ">
@@ -26,11 +26,11 @@ function Footer(props) {
       <Card style={{border:"none"}}>
         <Card.Body className='handlesFooter'>
         <div className="d-flex justify-content-center">
-        <Figure className="me-1"><Figure.Image width={40} height={40} alt="50x50" src={props.handles1}/></Figure>
-        <Figure className="me-1"><Figure.Image width={40} height={40} alt="50x50" src={props.handles2}/></Figure>
-        <Figure className="me-1"><Figure.Image width={40} height={40} alt="50x50" src={props.handles3}/></Figure>
-        <Figure className="me-1"><Figure.Image width={40} height={40} alt="50x50" src={props.handles4}/></Figure>
-        <Figure className="me-1"><Figure.Image width={40} height={40} alt="50x50" src={props.handles5}/></Figure>
+        <Figure className="zoom me-1 "><Figure.Image width={40} height={40} alt="50x50" src={props.handles1}/></Figure>
+        <Figure className="zoom me-1"><Figure.Image width={40} height={40} alt="50x50" src={props.handles2}/></Figure>
+        <Figure className="zoom me-1 "><Figure.Image width={40} height={40} alt="50x50" src={props.handles3}/></Figure>
+        <Figure className="zoom me-1 "><Figure.Image width={40} height={40} alt="50x50" src={props.handles4}/></Figure>
+        <Figure className="zoom me-1 "><Figure.Image width={40} height={40} alt="50x50" src={props.handles5}/></Figure>
         </div>
         </Card.Body>
       </Card>
