@@ -8,7 +8,7 @@ function Header(props) {
   return (
     <Navbar collapseOnSelect expand="lg" className='Header' variant="dark" >
       <Container>
-        <Navbar.Brand href="#logo" className='Logo'> <img src={props.logo} width="232" height="72" alt='none'  className="d-inline-block align-top"/></Navbar.Brand> 
+        <Navbar.Brand href="#logo" className='zoom Logo'> <img src={props.logo} width="232" height="72" alt='none'  className="d-inline-block align-top"/></Navbar.Brand> 
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse bg="light" sid="responsive-navbar-nav" >
           <Nav className="me-auto fs-4.5 " >

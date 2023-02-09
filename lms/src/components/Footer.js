@@ -1,6 +1,7 @@
 import Card from 'react-bootstrap/Card';
 import CardGroup from 'react-bootstrap/CardGroup';
 import Figure from 'react-bootstrap/Figure';
+import ReactWhatsapp from 'react-whatsapp';
 import Maps from './Maps';
 import './style.css'
 function Footer(props) {
@@ -9,7 +10,8 @@ function Footer(props) {
   
   <CardGroup >
    <Card style={{border:"none"}}>
-        <Card.Body className='mapFooter'>
+        <Card.Body className='d-flex align-items-center flex-column mapFooter'>
+        <Card.Title className='text-white'>Location</Card.Title>
           <Maps/>
         </Card.Body>
   </Card> 
@@ -24,11 +26,11 @@ function Footer(props) {
       <Card style={{border:"none"}}>
         <Card.Body className='handlesFooter'>
         <div className="d-flex justify-content-center  ">
-        <Figure className="zoom me-1 "><Figure.Image width={40} height={40} alt="50x50" src={props.handles1}/></Figure>
-        <Figure className="zoom me-1"><Figure.Image width={40} height={40} alt="50x50" src={props.handles2}/></Figure>
-        <Figure className="zoom me-1 "><Figure.Image width={40} height={40} alt="50x50" src={props.handles3}/></Figure>
-        <Figure className="zoom me-1 "><Figure.Image width={40} height={40} alt="50x50" src={props.handles4}/></Figure>
-        <Figure className="zoom me-1 "><Figure.Image width={40} height={40} alt="50x50" src={props.handles5}/></Figure>
+        <ReactWhatsapp number="+91 7030 20 0057" message="Hi"  style={{border:"none",background:"none"}}><Figure className="zoom me-1"><Figure.Image width={40} height={40} alt="50x50" src={props.handles1}/></Figure></ReactWhatsapp>
+        <a target="_blank" href="https://www.instagram.com/oytie_learning/"><Figure className="zoom me-1"><Figure.Image width={40} height={40} alt="50x50" src={props.handles2}/></Figure></a>
+        <a target="_blank" href="https://www.facebook.com/Oytie"> <Figure className="zoom me-1"><Figure.Image width={40} height={40} alt="50x50" src={props.handles3}/></Figure></a>
+        <a target="_blank" href="https://www.youtube.com/channel/UC-u9TPF4IXvJ7uCKxf23pXQ/featured"><Figure className="zoom me-1"><Figure.Image width={40} height={40} alt="50x50" src={props.handles4}/></Figure></a>
+        <a target="_blank" href="https://www.linkedin.com/in/oytie-private-limited-931b5b1b8/"><Figure className="zoom me-1"><Figure.Image width={40} height={40} alt="50x50" src={props.handles5}/></Figure></a>
         </div>
         </Card.Body>
       </Card>
