@@ -43,7 +43,7 @@
 
   .Footer{
     background-color: #0a1e7d;
-    position: fixed ;
+    position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
@@ -52,8 +52,7 @@
 }
 
 .mapFooter{
-  height: auto;
-  max-width: 100%;
+  background-color: #0a1e7d;
 }
 
 .handlesFooter{

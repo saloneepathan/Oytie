@@ -6,12 +6,13 @@ import './style.css'
 function Footer(props) {
   return (<>
   <div className="Footer card-mw-20 ">
-   <Card >
+  
+  <CardGroup >
+   <Card style={{border:"none"}}>
         <Card.Body className='mapFooter'>
           <Maps/>
         </Card.Body>
   </Card> 
-  <CardGroup >
     <Card style={{border:"none"}} >
         <Card.Body className='d-flex align-items-center flex-column contactFooter'>
         <Card.Title className='text-white'>Contact Info</Card.Title>
@@ -22,7 +23,7 @@ function Footer(props) {
     </Card>
       <Card style={{border:"none"}}>
         <Card.Body className='handlesFooter'>
-        <div className="d-flex justify-content-center">
+        <div className="d-flex justify-content-center  ">
         <Figure className="zoom me-1 "><Figure.Image width={40} height={40} alt="50x50" src={props.handles1}/></Figure>
         <Figure className="zoom me-1"><Figure.Image width={40} height={40} alt="50x50" src={props.handles2}/></Figure>
         <Figure className="zoom me-1 "><Figure.Image width={40} height={40} alt="50x50" src={props.handles3}/></Figure>
