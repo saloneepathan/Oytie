@@ -1,5 +1,8 @@
+import React from "react";
+import { useState, useEffect } from 'react';
 import Header from './components/Header'; 
 import Footer from './components/Footer'; 
+import PopOver from "./components/PopOver";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 
@@ -13,10 +16,14 @@ const emailLogo=new URL("./images/email.png",import.meta.url);
 const callLogo=new URL("./images/call.png",import.meta.url);
 
 function App() {
+  const [modalShow, setModalShow] = React.useState(false);
+  useEffect(() => {setTimeout(() => {setModalShow(true);}, 200)}, []);
+
   return (
     <> 
       <Header home="Home" navLink1="LMS Portal" navLink2="Job Portal" contactUs="Contact Us" logo={oytieLogo}/>
       <Footer handles1={whatsAppLogo} handles2={instagramLogo} handles3={facebookLogo} handles4={youtubeLogo} handles5={linkedInLogo} contactUs1={callLogo} contactUs2={emailLogo}></Footer>
+      <PopOver show={modalShow} onHide={() => setModalShow(false)} />
       </>  
     );
 }
