@@ -7,7 +7,7 @@ function PopOver(props) {
   return (
     <Modal {...props} size="lg" aria-labelledby="contained-modal-title-vcenter" centered>
       <Modal.Header closeButton>
-        <Modal.Title id="contained-modal-title-vcenter">
+        <Modal.Title  id="contained-modal-title-vcenter">
          Talk to us on <strong>WhatsApp!!</strong>
         </Modal.Title>
       </Modal.Header>

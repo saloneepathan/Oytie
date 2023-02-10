@@ -18,8 +18,8 @@ function Footer(props) {
     <Card style={{border:"none"}} >
         <Card.Body className='d-flex align-items-center flex-column contactFooter'>
         <Card.Title className='text-white'>Contact Info</Card.Title>
-        <a target="_blank" href='tel:917030200057'><Figure className="text-white me-1"><Figure.Image width={30} height={10} alt="50x50" src={props.contactUs1}/>+ <div className='hover-underline-animation'>91-7030-20-0057</div></Figure></a>
-        <a target="_blank" href='mailto:enquiry@oytie.com'><Figure className="text-white me-1"><Figure.Image width={30} height={10} alt="50x50" src={props.contactUs2}/> <div className='hover-underline-animation'> enquiry@oytie.com</div></Figure></a>
+        <a target="_blank" href='tel:917030200057'><Figure className="zoom text-white me-1"><Figure.Image width={30} height={10} alt="50x50" src={props.contactUs1}/>+ <div className='hover-underline-animation'>91-7030-20-0057</div></Figure></a>
+        <a target="_blank" href='mailto:enquiry@oytie.com'><Figure className="zoom text-white me-1"><Figure.Image width={30} height={10} alt="50x50" src={props.contactUs2}/> <div className='hover-underline-animation'> enquiry@oytie.com</div></Figure></a>
         </Card.Body>
   
     </Card>
