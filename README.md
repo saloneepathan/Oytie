@@ -11,8 +11,8 @@
 ### $npm install
 ### NOTE: Make sure you are inside the app folder.
 
-##3. Run App:
+## 3. Run App:
 ### Run the following command in your terminal to start the project: $npm start
 
-###In your browser, the project is now running. 
+### In your browser, the project is now running. 
 
