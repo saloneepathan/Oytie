@@ -42,3 +42,6 @@ function Footer(props) {
 }
 
 export default Footer;
+
+
+//Made by Salonee Pathan
